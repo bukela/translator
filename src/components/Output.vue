@@ -22,6 +22,6 @@ export default {
     list-style-type: none;
 }
 .result {
-    color: blueviolet;
+    color : royalblue; 
 }
 </style>
