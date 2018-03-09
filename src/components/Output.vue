@@ -1,6 +1,8 @@
 <template>
   <div id="output-app">
-      <h1>output</h1>
+      <ul class="out">
+        <li><h3 class="result">{{ translated }}</h3></li>
+      </ul>
   </div>
 </template>
 
@@ -9,15 +11,17 @@
 
 
 export default {
-    name: 'output-app',
-    data() {
-        return {
-            
-        }
-    }
+    
+    props: ['translated'],
+
 }
 </script>
 
 <style>
-
+.out {
+    list-style-type: none;
+}
+.result {
+    color: blueviolet;
+}
 </style>
