@@ -1,7 +1,7 @@
 <template>
   <div id="transForm">
       <form v-on:submit="formSub">
-          <input type="text" v-model="textForTrans" name="" id="">
+          <input type="text" v-model="textForTrans" name=""  placeholder="From English to :">
           
           <select v-model="language">
               <option value="ru">Russian</option>
@@ -64,7 +64,7 @@ export default {
     background : url('../img/italy.png') no-repeat center center/cover;
     width: 50px;
     height: 50px;
-    margin: 10px;  
+    margin: 10px; 
 }
 .de {
     background : url('../img/germany.png') no-repeat center center/cover;
