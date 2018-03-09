@@ -9,6 +9,7 @@
               <option value="fr">French</option>
               <option value="it">Italian</option>
               <option value="de">German</option>
+              <option value="sr">Serbian</option>
           </select>
         <input type="submit" value="Translate">
         <div v-bind:class="language"></div>
@@ -67,6 +68,12 @@ export default {
 }
 .de {
     background : url('../img/germany.png') no-repeat center center/cover;
+    width: 50px;
+    height: 50px;
+    margin: 10px;  
+}
+.sr {
+    background : url('../img/serbia.png') no-repeat center center/cover;
     width: 50px;
     height: 50px;
     margin: 10px;  
